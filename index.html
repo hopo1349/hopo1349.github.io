@@ -55,7 +55,7 @@
 
     <!-- ✅ 여기부터 추가된 부분 -->
     <section style="margin-top: 30px; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
-      <h3>랜덤 문자열 생성기 (128자리)</h3>
+      <h3>랜덤 문자열 생성기 (96자리)</h3>
       <div id="randomString" style="
         font-family: monospace;
         word-break: break-all;
@@ -76,7 +76,7 @@
       function generateRandomString() {
         const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
         let result = '';
-        for (let i = 0; i < 128; i++) {
+        for (let i = 0; i < 96; i++) {
           const randomIndex = Math.floor(Math.random() * chars.length);
           result += chars[randomIndex];
         }
